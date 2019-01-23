@@ -1,0 +1,17 @@
+<mat-toolbar color="primary">
+  <button mat-button routerLink="/">
+    <mat-icon>home</mat-icon>Message Board
+  </button>
+  <button mat-button [routerLink]="['/create']" routerLinkActive="mat-accent">
+    <mat-icon>add_box</mat-icon> New Post
+  </button>
+  <span class="spacer"></span>
+  <button mat-button routerLink="/login" routerLinkActive="mat-accent">
+    Login
+  </button>
+  <button mat-button routerLink="/signup" routerLinkActive="mat-accent">
+    Signup
+  </button>
+  <button mat-button routerLink="/">Welcome</button>
+  <button mat-button>Logout</button>
+</mat-toolbar>
